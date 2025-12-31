@@ -33,7 +33,7 @@ body {
     justify-content: center;
     width: 325px;
     background-color: var(--light-grey);
-    padding: 15px;
+    padding: 0 15px 15px 15px;
     border-radius: 10px;
     text-align: center;
 }
