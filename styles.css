@@ -22,8 +22,8 @@ body {
     font-family: "Outfit", sans-serif;
     color: var(--dark-grey);
     background-color: var(--slate-300);
+    font-size: 15px;
     min-width: 375px;
-    font-size: 3vw;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -37,20 +37,20 @@ body {
     justify-content: center;
     width: 325px;
     background-color: var(--light-grey);
-    padding: 0 15px 15px 15px;
+    padding: 0 min(15px, 2vw) min(15px, 2vw) min(15px, 2vw);
     border-radius: 10px;
     text-align: center;
 }
 
 #qr-code {
     border-radius: 10px;
-    max-width: 300px;
+    width: 300px;
 }
 
 #caption {
-   font-weight: 700;
-   color: var(--slate-900);
-   font-size: 4vw;
+    font-weight: 700;
+    color: var(--slate-900);
+    font-size: 20px;
 }
 
 p {
