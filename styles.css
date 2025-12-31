@@ -15,7 +15,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Outfit", sans-serif;
     color: var(--dark-grey);
     background-color: var(--slate-300);
     min-width: 375px;
